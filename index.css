@@ -1,4 +1,4 @@
-body, html, h1, h2 {
+body, html, p, h1, h2 {
   margin: 0;
   padding: 0;
 }
@@ -26,4 +26,14 @@ table {
 .header h2 {
   font-size: 23px;
   padding-bottom: 20px;
+}
+
+.list {
+  margin: 30px auto 30px auto;
+  padding: 10px 20px 10px 20px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 23px;
+  width: 320px;
 }
