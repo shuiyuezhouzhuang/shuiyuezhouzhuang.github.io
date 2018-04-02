@@ -5,6 +5,7 @@ body, html, p, h1, h2 {
 
 body, html {
   height: 100%;
+  background-color: #007D8C;
 }
 
 table {
@@ -20,18 +21,34 @@ table {
 }
 
 .header img {
+  width: 100%;
+}
+
+
+.header .weixin,
+.header .logo {
+  margin: 0 auto;
+}
+
+.header .weixin {
   width: 240px;
+}
+
+.header .logo {
+  width: 250px;
+  padding: 60px 0 40px 0;
 }
 
 .header h2 {
   font-size: 23px;
   padding-bottom: 20px;
+  color: #fff;
 }
 
 .list {
   margin: 30px auto 30px auto;
-  padding: 10px 20px 10px 20px;
-  background-color: #f3f3f3;
+  padding: 10px 15px 10px 15px;
+  background-color: #ffffff87;
   border-radius: 8px;
   font-size: 14px;
   line-height: 23px;
