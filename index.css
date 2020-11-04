@@ -46,7 +46,7 @@ table {
 }
 
 .list {
-  margin: 30px auto 120px auto;
+  margin: 30px auto 80px auto;
   font-size: 14px;
   line-height: 23px;
   max-width: 320px;
@@ -57,4 +57,17 @@ table {
   padding: 10px 15px 10px 15px;
   background-color: #ffffff87;
   border-radius: 8px;
+}
+
+.footer a {
+  margin: 0 5px;
+  color: #5da9b3;
+  white-space:nowrap;
+}
+.footer {
+  text-align: center;
+  font-size: 12px;
+  line-height: 21px;
+  padding: 0 0 80px 0;
+  margin: 0 60px;
 }
